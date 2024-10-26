@@ -56,48 +56,47 @@
 
 
 //using System;
-//using System.Security.Cryptography;
 
 //class Program
 //{
 //    static void Main(string[] args)
 //    {
-//        int[,] matrix1 = new int [3, 3];
-//        int[,] matrix2 = new int [3, 3];
-//        int[,] result = new int [3, 3];
+//        int[,] matrix1 = new int[3, 3];
+//        int[,] matrix2 = new int[3, 3];
+//        int[,] result = new int[3, 3];
 
-//        Console.WriteLine("sheikvanet pirveli matricis elementebi:");
+//        Console.WriteLine("\nsheikvanet pirveli matricis elementebi:");
 
 //        for (int i = 0; i < 3; i++)
 //        {
 //            for (int j = 0; j < 3; j++)
 //            {
-//                Console.WriteLine("matrix1[" + (i + 1) + "," + (j + 1) + "]");
+//                Console.Write("matrix1[" + (i + 1) + "," + (j + 1) + "]");
 
-//                matrix1[i,j] = Convert.ToInt32(Console.ReadLine());
+//                matrix1[i, j] = Convert.ToInt32(Console.ReadLine());
 //            }
 
 //        }
 
 
-//        Console.WriteLine("sheikvanet mwore maticis elementebi");
+//        Console.WriteLine("\nsheikvanet mwore maticis elementebi");
 
-//        for (int i = 0;i < 3; i++)
-//        {
-//            for (int j = 0;j < 3; j++)
-//            {
-//                Console.WriteLine("matrix2["+ (i+1) +","+(j+1) + "]" );
-
-//                matrix2[i,j] = Convert.ToInt32(Console.ReadLine());
-//            }
-//        }
-
-
-//        for (int i = 0; i < 3 ; i++)
+//        for (int i = 0; i < 3; i++)
 //        {
 //            for (int j = 0; j < 3; j++)
 //            {
-//                result[i,j] = matrix1[i,j] + matrix2[i,j];
+//                Console.Write("matrix2[" + (i + 1) + "," + (j + 1) + "]");
+
+//                matrix2[i, j] = Convert.ToInt32(Console.ReadLine());
+//            }
+//        }
+
+
+//        for (int i = 0; i < 3; i++)
+//        {
+//            for (int j = 0; j < 3; j++)
+//            {
+//                result[i, j] = matrix1[i, j] + matrix2[i, j];
 
 //            }
 //        }
@@ -109,9 +108,9 @@
 //        {
 //            for (int j = 0; j < 3; j++)
 //            {
-//                Console.WriteLine(result[i,j]);
+//                Console.Write(result[i, j] + "\t");
 //            }
-
+//            Console.WriteLine();
 //        }
 
 
@@ -125,7 +124,7 @@
 
 
 
-//  4)
+////  4)
 
 using System;
 
